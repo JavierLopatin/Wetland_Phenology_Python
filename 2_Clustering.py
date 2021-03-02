@@ -156,7 +156,7 @@ with rasterio.open('LSP_nRMSE.tif', 'w', **out_meta) as dst:
     
 #%%
 # -----------------------------------------------------------------------------
-# extract pont values from rasters
+# extract point values from rasters
 # samples using the LSP and %RMSE metrics
 LSPbands = ['SOS', 'POS', 'EOS', 'vSOS', 'vPOS', 'vEOS', 'LOS', 'MSP', 'MAU',
             'vMSP', 'vMAU', 'AOS', 'IOS', 'ROG', 'ROS', 'SW', 'nRMSE_all',
@@ -210,7 +210,7 @@ plt.savefig('corrplot_'+variables+'.png', res=300)
 
 #%%
 # preprocessing
-# standarize variables
+# standardize variables
 ss = StandardScaler()
 X_std = ss.fit_transform(inData)
 
@@ -326,11 +326,7 @@ y_km = km.fit_predict(X_pca)
 centers = km.cluster_centers_
 
 # color labels
-#cmapp4 = ['#1b9e77','#d95f02','#7570b3','#e7298a']
 cmapp5 = ['#1b9e77','#d95f02','#7570b3','#e7298a','#66a61e']
-#cmapp10 = ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c',
-#          '#fdbf6f','#ff7f00','#cab2d6','#6a3d9a']
-
 cmapp = pltc.LinearSegmentedColormap.from_list(y_km, cmapp5)
 
 # plot figure
