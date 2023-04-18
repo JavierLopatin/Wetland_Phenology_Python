@@ -1,0 +1,13 @@
+PFT classes. Selected classes (*) for analysis are 1, 3, 4, 5, 6, and 9.
+
+0	Agriculture	
+1	Annual Grassland*
+2	Barren	
+3	Other*
+4	Perennial Grassland*	
+5	Pickleweed-Cordgrass-Saltbush*	
+6	Tule-Cattail*	
+7	Urban or developed	
+8	Water
+9	Wet Meadows*	
+10	Willow	
