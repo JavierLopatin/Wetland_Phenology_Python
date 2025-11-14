@@ -1,0 +1,7 @@
+"PFT_id","PFT_name","Sensitivity","Specificity","Pos Pred Value","Neg Pred Value","Precision","Recall","F1","Prevalence","Detection Rate","Detection Prevalence","Balanced Accuracy"
+1,"Annual_Grassland*",0.67,0.95,0.73,0.94,0.73,0.67,0.7,0.16,0.11,0.14,0.81
+3,"Other*",0,1,NA,0.98,NA,0,NA,0.02,0,0,0.5
+4,"Perennial_Grassland*",0,1,NA,1,NA,0,NA,0,0,0,0.5
+5,"Pickleweed-Cordgrass-Saltbush*",0.8,0.6,0.68,0.73,0.68,0.8,0.73,0.52,0.41,0.6,0.7
+6,"Tule-Cattail*",0.59,0.89,0.68,0.84,0.68,0.59,0.63,0.29,0.17,0.25,0.74
+9,"Wet_Meadows*",0,1,NA,0.98,NA,0,NA,0.02,0,0,0.5
