@@ -1,0 +1,7 @@
+# Ignore workspace dumps / pickles
+*.pkl
+*.pickle
+*.dill
+
+# Ignore the outputs folder
+outputs/
