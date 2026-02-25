@@ -134,4 +134,22 @@ Version: 1.0
 
 ## Citation
 
-If you use this code in your research, please cite appropriately.
+Lopatin, J., Araya-López, R., & Dronova, I. (2026). Remotely sensed phenology reveals environmental and management controls on coastal wetland plant communities. Ecological Informatics, 103610, 103610. https://doi.org/10.1016/j.ecoinf.2026.103610
+
+
+@ARTICLE{Lopatin2026-wf,
+  title     = "Remotely sensed phenology reveals environmental and management
+               controls on coastal wetland plant communities",
+  author    = "Lopatin, Javier and Araya-López, Rocío and Dronova, Iryna",
+  journal   = "Ecol. Inform.",
+  publisher = "Elsevier BV",
+  number    =  103610,
+  pages     =  103610,
+  abstract  = "Plant phenology is often used as an indicator of ecological
+               processes and responses to changing environmental conditions.
+               Remote sensing enables pheno…",
+  month     =  jan,
+  year      =  2026,
+  language  = "en"
+}
+
