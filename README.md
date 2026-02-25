@@ -130,7 +130,7 @@ Version: 1.0
 
 ## License
 
-[Add license information if applicable]
+CC BY-NC license (http://creativecommons.org/licenses/by- nc/4.0/)
 
 ## Citation
 
